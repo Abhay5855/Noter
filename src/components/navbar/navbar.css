@@ -1,0 +1,29 @@
+.nav__container {
+  width: 100vw;
+  padding: 1em;
+  background: #000;
+  color: #fff;
+}
+
+.nav__lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* background img */
+.nav__backgroundImg {
+  background-image: url("../../../public/images/notes.svg");
+  width: 3.5em;
+  height: 3.5em;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav__lists > li {
+  list-style: none;
+  cursor: pointer;
+}
+

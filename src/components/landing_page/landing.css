@@ -1,0 +1,146 @@
+
+
+.landing__body {
+   
+    height : 100vh;
+    background-color: black;
+    width : 100vw;
+}
+
+
+.landing__container {
+
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    width : 90vw;
+    margin :4em auto;
+    z-index : -1;
+
+
+}
+
+
+.landing__background {
+    
+    background-image: url("../../../public/images/notesapp.svg");
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .landing__desc > p{
+
+   color : #fff;
+   font-size: 1.5em;
+   font-size : 400;
+   
+ }
+
+.landing__content {
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    width : 30vw;
+    margin-left : 2em;
+
+}
+
+.landing__title {
+    display : flex;
+    margin-bottom: 1em;
+
+}
+
+.create{
+
+    font-size: 3.5em;
+    color : #FF6666;
+
+}
+
+.organize {
+    font-size: 3.5em;
+    color : #fff;
+
+}
+
+.easy {
+    font-size: 3.5em;
+    color : #F7CD2E;
+
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+
+@media screen and (max-width : 550px){
+
+      
+.landing__container {
+
+    flex-direction: column;
+
+} 
+
+
+.landing__background {
+    
+    background-image: url("../../../public/images/notesapp.svg");
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .landing__desc >h3 {
+
+   color : #fff;
+   font-size: 1.2em;
+   font-size : 400;
+   
+ }
+
+.landing__content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width : 20vw;
+    
+
+}
+
+.landing__title {
+
+    margin-bottom: 0.5em;
+
+}
+
+.create{
+
+    font-size: 1.2em;
+
+
+}
+
+.organize {
+    font-size: 1.2em;
+
+
+}
+
+.easy {
+    font-size: 1.2em;
+
+
+}
+
+}
